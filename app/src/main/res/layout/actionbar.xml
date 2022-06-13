@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/white_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#c9c9c9"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/navi_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:paddingTop="13dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="13dp"
+            android:src="@drawable/menu_icon" />
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#0000"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/sample_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="16dp"
+            android:paddingTop="13dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="13dp"
+            android:background="#0000"
+            android:src="@drawable/back_icon" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/color_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#c9c9c9"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/black_back_btn"
+            android:paddingTop="13dp"
+            android:paddingBottom="13dp"
+            android:src="@drawable/black_back"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/title_color_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/color_actionbar_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/white_back_btn"
+            android:paddingTop="13dp"
+            android:paddingBottom="13dp"
+            android:src="@drawable/white_back"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/title_color_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

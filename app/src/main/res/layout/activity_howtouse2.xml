@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#262626"
+    android:adjustViewBounds="true"
+    android:scaleType="fitXY"
+    tools:context="com.mirine.sos2020.HowtouseActivity2">
+
+
+    <ImageView
+        android:id="@+id/ht1"
+        android:src="@drawable/howto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FDD835"
+        android:layout_centerHorizontal="true"
+    />
+
+    <ImageView
+        android:id="@+id/ht2"
+        android:src="@drawable/howto2"
+        android:layout_above="@id/ht3"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:id="@+id/ht3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ht4"
+        android:layout_marginBottom="40dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/howto3"
+        />
+
+
+    <ImageView
+        android:id="@+id/ht4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ht5"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/howto4"></ImageView>
+
+    <ImageView
+        android:id="@+id/ht5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/htcenter1"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/howto5">
+
+    </ImageView>
+
+    <TextView
+
+        android:id="@+id/htcenter1"
+        android:text="-무음 모드 전환 후 10초 안에 취소 가능합니다"
+        android:textColor="#BDBDBD"
+        android:fontFamily="@font/gtd3"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/htcenter2"
+        android:text="-취소하지 않을 경우 내 위치가 저장된 번호로 전송됩니다"
+
+        android:textColor="#BDBDBD"
+        android:fontFamily="@font/gtd3"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/htcenter1"
+
+        />
+
+    <TextView
+
+        android:id="@+id/htcenter3"
+        android:text="-1분간 음성녹음 후 저장된 번호로 전송됩니다"
+        android:textColor="#BDBDBD"
+        android:fontFamily="@font/gtd3"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/htcenter2"
+
+        />
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/howbox"
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:layout_below="@+id/htcenter3"
+        android:layout_marginTop="19dp"
+        android:layout_centerInParent="true"
+        >
+
+        <ImageView
+            android:id="@+id/sub7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/howsub7"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ht8"
+        android:text="*실행 후 카메라가 켜질 경우 위 설명에 따라 설정해주세요"
+        android:textColor="#FFF000"
+        android:fontFamily="@font/gtd5"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/howbox"/>
+
+    <ImageButton
+        android:id="@+id/howtohomebutton"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:src="@drawable/inhome"
+        android:layout_alignParentBottom="true"
+
+
+        ></ImageButton>
+
+
+
+
+
+
+
+</RelativeLayout>

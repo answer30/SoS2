@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SOS\n긴급사항도우미</string>
+    <string name="title_home">학교폭력SOS</string>
+    <string name="title_dashboard">연락처 등록</string>
+    <string name="title_notifications">How to</string>
+
+    <string name="howto_text1"><![CDATA[<font color="#FF2C57">전원버튼</font><font color="#ffffff">을 1초내</font>]]></string>
+    <string name="howto_text2"><![CDATA[<font color="#ffffff"><U>* 카메라가 실행 될 경우<U></font>]]></string>
+
+
+    <string name="next">다음</string>
+    <string name="skip">건너뛰기</string>
+    <string name="start">시작하기</string>
+
+
+    <string name="page_1_title">음 성 녹 음</string>
+    <string name="page_1_desc">작동 후 1분간 녹음 후 전송됩니다.</string>
+
+    <string name="page_2_title">위 치 알 림</string>
+    <string name="page_2_desc">내 위치가 보호자에게 전송됩니다.</string>
+
+    <string name="page_3_title">자 동 전 송</string>
+    <string name="page_3_desc">전원버튼 4연속 누르면 간편 작동.</string>
+
+
+</resources>

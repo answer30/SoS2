@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/howto_gradinet"
+    tools:context=".FragmentDashboard">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="보호자 1"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/box_selector"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp"
+                android:paddingTop="4dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="4dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/number_2" />
+
+                <EditText
+                    android:id="@+id/ed_name_1"
+                    android:inputType="text"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:hint="Name"
+                    android:textColor="#000000"
+                    android:textColorHint="#888888"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/box_selector"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp"
+                android:paddingTop="4dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="4dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/number_1" />
+
+                <EditText
+                    android:id="@+id/et_receiver"
+                    android:inputType="number"
+                    android:imeOptions="actionDone"
+                    android:maxLines="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:hint="Number"
+                    android:textColor="#000000"
+                    android:textColorHint="#888888"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/edit_btn_1"
+                    android:paddingRight="40dp"
+                    android:paddingLeft="40dp"
+                    android:background="@drawable/box_selector_1"
+                    android:textSize="14dp"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="수 정" />
+
+
+                <Button
+                    android:id="@+id/save_btn_1"
+                    android:paddingRight="40dp"
+                    android:paddingLeft="40dp"
+                    android:background="@drawable/box_selector_2"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="14dp"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="등 록" />
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="30dp"
+                android:background="#534F4F"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="보호자 2"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/box_selector"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp"
+                android:paddingTop="4dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="4dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/number_2" />
+
+                <EditText
+                    android:id="@+id/ed_name_2"
+                    android:inputType="text"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:hint="Name"
+                    android:textColor="#000000"
+                    android:textColorHint="#888888"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/box_selector"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp"
+                android:paddingTop="4dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="4dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/number_1" />
+
+            <EditText
+                android:id="@+id/et_receiverSub"
+                android:inputType="number"
+                android:imeOptions="actionDone"
+                android:maxLines="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="Number"
+                android:textColor="#000000"
+                android:textColorHint="#888888"
+                android:textSize="16dp" />
+
+        </LinearLayout>\ㅁ ㅗ
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/edit_btn_2"
+                android:paddingRight="40dp"
+                android:paddingLeft="40dp"
+                android:background="@drawable/box_selector_1"
+                android:textSize="14dp"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="수 정" />
+
+
+            <Button
+                android:id="@+id/save_btn_2"
+                android:paddingRight="40dp"
+                android:paddingLeft="40dp"
+                android:background="@drawable/box_selector_2"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="등 록" />
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="30dp"
+            android:background="#534F4F"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#262626"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="유료결제시 3명 추가등록 가능합니다."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/pay_linear"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/box_selector_2"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp">
+
+        <ImageView
+            android:src="@drawable/number_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:text="유료결제"
+                android:textSize="14dp"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

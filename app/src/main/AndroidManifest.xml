@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mirine.sos2020">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- 화면 ON -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 배터리 최적화 -->
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" /> <!-- 오디오 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- SMS -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.SEND_MMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_MMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_MMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.provider.Telephony.SMS_RECEIVED" /> <!-- 연락처 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" /> <!-- 저장공간쓰기기 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Location -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 방해금지 모드 -->
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Background -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/new_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/new_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <activity
+            android:name=".TutorialActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".PermissionActivity" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCo-B70BACuXmq-knUkTcXr7DdULemKS4w" />
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IntroduceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PopupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActualPayment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/loginTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HowtouseActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity2"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/loginTheme" />
+        <activity
+            android:name=".CountDownActivity"
+            android:launchMode="singleTop" />
+
+        <receiver android:name=".background.MainRecever">
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_OFF" />
+                <action android:name="android.intent.action.SCREEN_On" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".background.AlarmRecever" />
+
+        <service
+            android:name=".background.PowerSwichService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".background.RestartService"
+            android:enabled="true"
+            android:exported="true" />
+        <service android:name="com.android.mms.transaction.TransactionService" />
+    </application>
+
+</manifest>

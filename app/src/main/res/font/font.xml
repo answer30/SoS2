@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gtd1" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gtd2" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gtd3" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gtd4" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gtd5" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gtd6" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gtd7" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gtd8" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gtd9" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gte3" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gte4" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gte5" />
+
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gtm3" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gtm4" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gtm5" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gtn3" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gtn4" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gtn5" />
+
+
+
+
+
+</font-family>

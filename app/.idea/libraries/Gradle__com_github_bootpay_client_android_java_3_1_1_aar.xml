@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.bootpay:client_android_java:3.1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/357de813eaa986d28132ffaed4b516b6/jetified-client_android_java-3.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/357de813eaa986d28132ffaed4b516b6/jetified-client_android_java-3.1.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bootpay/client_android_java/3.1.1/60174ab952aaf5c1950686cde6e484721de44972/client_android_java-3.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

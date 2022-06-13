@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#262626"
+    android:orientation="horizontal"
+    tools:context="com.mirine.sos2020.KakaopayActivity">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="530dp"
+
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="535dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        app:cardCornerRadius="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.73"
+
+        >
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="16dp">
+
+
+                <ImageButton
+                    android:id="@+id/activity_send_message_Cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/b1100"
+                    android:layout_marginTop="15dp"
+                    android:background="#262626"
+                    android:onClick="onClick_request"
+                    android:padding="15dp"
+                     />
+
+                <ImageButton
+                    android:id="@+id/mOnPopupClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:background="#262626"
+                    android:onClick="mOnPopupClick"
+                    android:padding="12dp"
+                    android:src="@drawable/cancel_bk"
+
+                    />
+
+                <ImageButton
+                    android:id="@+id/homeAP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:background="#262626"
+                    android:onClick="homeAP"
+                    android:padding="12dp"
+                    android:src="@drawable/backback_bk" />
+
+                <ImageButton
+                    android:id="@+id/homeAP1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:background="#262626"
+                    android:onClick="homeAP1"
+                    android:padding="12dp"
+                    android:src="@drawable/gohome_bk" />
+
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

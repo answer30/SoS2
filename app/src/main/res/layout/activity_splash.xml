@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/howto_gradinet"
+    tools:context="com.mirine.sos2020.SplashActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/splashj_line1"
+        android:layout_below="@+id/main_tv"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:orientation="vertical"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+    </LinearLayout>
+
+
+
+
+
+    <ImageView
+        android:id="@+id/splash1"
+        android:src="@drawable/sendsos1"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/splashj_line1"
+        />
+
+
+
+
+        />
+
+
+    <TextView
+        android:text="긴급사항 도우미"
+        android:textSize="20dp"
+        android:fontFamily="@font/gtd9"
+        android:textColor="#FF2C57"
+        android:id="@+id/splashtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/splash1"
+        android:layout_marginTop="50dp"
+
+
+        />
+
+</RelativeLayout>

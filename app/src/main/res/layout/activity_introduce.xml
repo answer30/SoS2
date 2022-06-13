@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C081C"
+    tools:context="com.mirine.sos2020.IntroduceActivity"
+
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/re1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:id="@+id/into1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/into2"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="42dp"
+        android:src="@drawable/into12" />
+
+    <ImageView
+        android:id="@+id/into2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/into3"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/into2" />
+
+    <ImageView
+        android:id="@+id/into3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:src="@drawable/into3" />
+
+    <ImageView
+        android:id="@+id/into4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/into3"
+
+        android:src="@drawable/into4" />
+
+    <ImageButton
+        android:id="@+id/callme"
+        android:src="@drawable/howhow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFF"
+        android:layout_above="@id/ingomhme"
+        android:layout_marginBottom="10dp"
+        android:padding="8dp"
+
+        />
+
+    <ImageButton
+        android:id="@+id/ingomhme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:background="#FFFFFF"
+        android:onClick="ingomhme"
+        android:padding="8dp"
+        android:src="@drawable/inhome"
+        android:layout_alignParentBottom="true"
+
+
+        />
+
+
+</RelativeLayout>
